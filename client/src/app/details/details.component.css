@@ -1,0 +1,25 @@
+#like{
+	color: white;
+	background: linear-gradient(#d9e6f8, #516676);
+	margin-left:5%;
+	padding: 1%;
+	width:60%;
+}
+td{
+	text-align: center;
+}
+#adopt{
+	color: white;
+	background: linear-gradient(#f1dbc4, #4e626e);
+	margin-left:5%;
+	padding: 1%;
+	width:60%;
+}
+#home{
+	margin-left: 80%;
+}
+.holder{
+	width:20%;
+	display: inline-block;
+	vertical-align: top
+}

@@ -1,0 +1,35 @@
+button{
+	background-color: #66bbff;
+	color: white;
+	font-weight: bold;
+}
+ul{
+	list-style: none
+}
+#formHolder{
+	border: 1px solid grey;
+}
+#errorHolder{
+	height:30px;
+}
+span{
+	color: grey;
+}
+.alert{
+	color:blue;
+}
+#add{
+	margin-left: 85%;
+	padding: 1%;
+	width: 15%
+}
+#cancel{
+	margin-left: 5%;
+	padding: 1%;
+	width: 15%
+}
+.holder{
+	width:45%;
+	display: inline-block;
+	vertical-align: top
+}
