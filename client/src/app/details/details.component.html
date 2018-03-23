@@ -2,15 +2,15 @@
 <h2>Details about {{ petInfo.name}}</h2>
 <table>
 	<tr>
-		<td><b>Pet type:</b></td>
+		<td class="title">Pet type:</td>
 		<td>{{ petInfo.type }}</td>
 	</tr>
 	<tr>
-		<td><b>Descriptions</b></td>
+		<td class="title">Descriptions:</td>
 		<td>{{ petInfo.desc }}</td>
 	</tr>
 	<tr>
-		<td><b>Skills</b></td>
+		<td class="title">Skills:</td>
 		<td>{{ petInfo.skill1 }}</td>
 	</tr>
 	<tr *ngIf="petInfo.skill2">
@@ -22,7 +22,7 @@
 		<td>{{ petInfo.skill3 }}</td>
 	</tr>
 	<tr>
-		<td><b>Likes:</b></td>
+		<td class="title">Likes:</td>
 		<td>{{ petInfo.likes }}</td>
 	</tr>
 </table>

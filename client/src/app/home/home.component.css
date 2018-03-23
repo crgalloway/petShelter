@@ -13,12 +13,16 @@ td, th{
 	padding: 5px;
 	width: 400px;
 }
-tr:nth-child(even) {background-color: #d3d3d3;}
+tr:nth-child(even) {
+	background-color: #d3d3d3;
+}
 .details{
 	color: white;
-	background: linear-gradient(#d9e6f8, #516676)
+	background: linear-gradient(#d9e6f8, #516676);
+	margin-left: 25%;
 }
 .edit{
 	color: white;
-	background: linear-gradient(#f1dbc4, #4e626e)
+	background: linear-gradient(#f1dbc4, #4e626e);
+	margin-left:25%;
 }

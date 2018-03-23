@@ -5,8 +5,9 @@
 	padding: 1%;
 	width:60%;
 }
-td{
+.title{
 	text-align: center;
+	font-weight: bold;
 }
 #adopt{
 	color: white;
@@ -21,5 +22,5 @@ td{
 .holder{
 	width:20%;
 	display: inline-block;
-	vertical-align: top
+	vertical-align: top;
 }
